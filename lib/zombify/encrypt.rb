@@ -14,7 +14,7 @@ module Zombify
     private
 
     def repack(str)
-      str.unpack("H*").pack("m0")
+      Base64.encode64(str)
     end
 
     def repacked_str

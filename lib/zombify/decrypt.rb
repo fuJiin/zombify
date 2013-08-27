@@ -14,7 +14,7 @@ module Zombify
     private
 
     def depack(str)
-      str.unpack("m0").pack("H*")
+      Base64.decode64(str)
     end
 
     def desalted_aes_decrypt

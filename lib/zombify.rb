@@ -1,4 +1,5 @@
 require "fast-aes"
+require "base64"
 
 module Zombify
 

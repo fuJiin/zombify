@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.email = "fu7iin@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
+    "README.md",
     "README.rdoc"
   ]
   s.files = [
@@ -22,13 +23,16 @@ Gem::Specification.new do |s|
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
     "lib/zombify.rb",
     "lib/zombify/decrypt.rb",
     "lib/zombify/encrypt.rb",
     "spec/spec_helper.rb",
-    "spec/zombify_spec.rb"
+    "spec/zombify_spec.rb",
+    "zombify.gemspec"
   ]
   s.homepage = "http://github.com/fuJiin/zombify"
   s.licenses = ["MIT"]
