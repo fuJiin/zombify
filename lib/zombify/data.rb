@@ -21,8 +21,8 @@ module Zombify
       decrypted["timestamp"]
     end
 
-    def valid?
-      (Time.now.to_i - timestamp.to_i) > Zombify.expires
+    def valid?(expires) # expires given in Time
+      (Time.now.to_i - timestamp.to_i) > expires
     end
   end
 end
