@@ -36,6 +36,14 @@ module Zombify
       @salt = str
     end
 
+    def expires
+      @expires || raise(NotConfigured.new "expires")
+    end
+
+    def expires=(time)
+      @expires = time
+    end
+
     def configure(&block)
       yield(self)
     end
@@ -51,4 +59,6 @@ module Zombify
 
   autoload :Encrypt, "#{load_path}/zombify/encrypt"
   autoload :Decrypt, "#{load_path}/zombify/decrypt"
+
+  autoload :Data, "#{load_path}/zombify/data"
 end

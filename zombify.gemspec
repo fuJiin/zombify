@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/zombify.rb",
+    "lib/zombify/data.rb",
     "lib/zombify/decrypt.rb",
     "lib/zombify/encrypt.rb",
     "spec/spec_helper.rb",
