@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "zombify"
   gem.homepage = "http://github.com/fuJiin/zombify"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Simple, uneducated encryption library}
+  gem.description = %Q{Simple, uneducated encryption library}
   gem.email = "fu7iin@gmail.com"
   gem.authors = ["Elpizo Choi"]
   # dependencies defined in Gemfile
